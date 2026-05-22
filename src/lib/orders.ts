@@ -97,6 +97,7 @@ export async function sendOrderEmailNotification(
         price: item.price,
       })),
       totals,
+      submittedAt: new Date().toISOString(),
     }),
   });
 
