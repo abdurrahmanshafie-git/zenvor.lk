@@ -1,0 +1,6 @@
+{
+  "name": "Zenvor Premium Streetwear",
+  "description": "Premium oversized essentials crafted for modern movement, clean confidence, and everyday dominance. Luxury streetwear at its finest.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
