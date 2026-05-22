@@ -81,7 +81,7 @@ export async function sendOrderEmailNotification(
   items: CartItem[],
   totals: OrderTotals
 ) {
-  const response = await fetch('/.netlify/functions/send-order-email', {
+  const response = await fetch('/api/send-order-email', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -122,7 +122,5 @@ export async function getCustomerOrders() {
 }
 
 export async function sendOrderConfirmationPlaceholder(orderNumber: string, email: string) {
-  // Connect a Netlify Function, Resend, or EmailJS here later.
-  // Keep this in client code as a no-op placeholder until a server-side email sender is configured.
   console.info(`Order confirmation ready for ${orderNumber} -> ${email}`);
 }
